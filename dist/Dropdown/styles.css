@@ -1,0 +1,33 @@
+.row--dropdown-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.row--dropdown-info > .one-step-resume-container {
+    margin-top: 34px;
+}
+
+.row--dropdown-info > .one-step-resume-container > .ant-btn-primary[disabled],
+.ant-btn-primary[disabled]:hover,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary[disabled]:active {
+    color: white !important;
+    background: #bfbfbf !important;
+    border-color: #bfbfbf !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.one-step-modal-button-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.numbers-display {
+    width: 200px;
+}
